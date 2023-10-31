@@ -1,0 +1,30 @@
+:root {
+    --primary-bg: rgb(50, 0, 50);
+    --secondary-bg: hsl(28, 75%, 75%);
+}
+
+body {
+    background-color: var(--primary-bg);
+}
+
+.container {
+    width: fit-content;
+    background-color: var(--secondary-bg);
+    border-radius: 1em;
+    padding: 2rem;
+    margin-inline: auto;
+}
+
+.center {
+    transform: translateY(50%);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
